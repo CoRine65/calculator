@@ -1,0 +1,16 @@
+.main{
+    display: flex;
+}
+
+.numberPad{
+    display: flex;
+}
+
+.digits{
+    display: grid;
+}
+
+.operations{
+    display: flex;
+    flex-direction: column;
+}
