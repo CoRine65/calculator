@@ -85,9 +85,7 @@ function division(num1, num2) {
     return num1 / num2;
 }
 
-function power(num1, num2) {
-    return Math.pow(num1, num2);
-}
+
 
 function operate(num1, operator, num2) {
     switch (operator) {
@@ -99,8 +97,7 @@ function operate(num1, operator, num2) {
             return multiply(num1, num2);
         case "/":
             return division(num1, num2);
-        case "x^2":
-            return power(num1, num2);
+
         default:
             return "Error: Invalid operator";
     }
